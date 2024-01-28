@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GrainGrove", "GrainGrove\GrainGrove.csproj", "{02A10A88-2E2F-4EED-B385-CBDB28DA30B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrainGrove.Infrastructure", "GrainGrove.Infrastructure\GrainGrove.Infrastructure.csproj", "{A95896DE-379A-47F9-96AD-890C9936F59D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrainGrove.Domain", "GrainGrove.Domain\GrainGrove.Domain.csproj", "{FF1EAD17-5004-48E7-8B72-8E8F53579124}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrainGrove.Application", "GrainGrove.Application\GrainGrove.Application.csproj", "{1C289AE4-1E01-48C1-B0AB-2EB874921347}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Share", "Share", "{16D1C131-026D-42FF-83C9-9B95947C7E01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrainGrove.Business", "GrainGrove.Business\GrainGrove.Business.csproj", "{0AF2C371-C616-40DC-B0FF-DC2CB7716096}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrainGrove.Helper", "GrainGrove.Helper\GrainGrove.Helper.csproj", "{E0AAF114-473E-4A40-8F8B-B1A198144E35}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02A10A88-2E2F-4EED-B385-CBDB28DA30B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02A10A88-2E2F-4EED-B385-CBDB28DA30B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02A10A88-2E2F-4EED-B385-CBDB28DA30B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02A10A88-2E2F-4EED-B385-CBDB28DA30B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A95896DE-379A-47F9-96AD-890C9936F59D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A95896DE-379A-47F9-96AD-890C9936F59D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A95896DE-379A-47F9-96AD-890C9936F59D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A95896DE-379A-47F9-96AD-890C9936F59D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF1EAD17-5004-48E7-8B72-8E8F53579124}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF1EAD17-5004-48E7-8B72-8E8F53579124}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF1EAD17-5004-48E7-8B72-8E8F53579124}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF1EAD17-5004-48E7-8B72-8E8F53579124}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C289AE4-1E01-48C1-B0AB-2EB874921347}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C289AE4-1E01-48C1-B0AB-2EB874921347}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C289AE4-1E01-48C1-B0AB-2EB874921347}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C289AE4-1E01-48C1-B0AB-2EB874921347}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AF2C371-C616-40DC-B0FF-DC2CB7716096}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AF2C371-C616-40DC-B0FF-DC2CB7716096}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AF2C371-C616-40DC-B0FF-DC2CB7716096}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AF2C371-C616-40DC-B0FF-DC2CB7716096}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0AAF114-473E-4A40-8F8B-B1A198144E35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0AAF114-473E-4A40-8F8B-B1A198144E35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0AAF114-473E-4A40-8F8B-B1A198144E35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0AAF114-473E-4A40-8F8B-B1A198144E35}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0AF2C371-C616-40DC-B0FF-DC2CB7716096} = {16D1C131-026D-42FF-83C9-9B95947C7E01}
+		{E0AAF114-473E-4A40-8F8B-B1A198144E35} = {16D1C131-026D-42FF-83C9-9B95947C7E01}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6899D106-954D-4A95-89F1-221492669B0D}
+	EndGlobalSection
+EndGlobal

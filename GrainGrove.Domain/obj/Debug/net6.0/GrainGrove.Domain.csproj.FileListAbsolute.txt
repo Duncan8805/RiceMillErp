@@ -1,0 +1,15 @@
+C:\Users\dunca\source\respository\GrainGrove_API\GrainGrove.Domain\bin\Debug\net6.0\GrainGrove.Domain.deps.json
+C:\Users\dunca\source\respository\GrainGrove_API\GrainGrove.Domain\bin\Debug\net6.0\GrainGrove.Domain.dll
+C:\Users\dunca\source\respository\GrainGrove_API\GrainGrove.Domain\bin\Debug\net6.0\GrainGrove.Domain.pdb
+C:\Users\dunca\source\respository\GrainGrove_API\GrainGrove.Domain\bin\Debug\net6.0\GrainGrove.Business.dll
+C:\Users\dunca\source\respository\GrainGrove_API\GrainGrove.Domain\bin\Debug\net6.0\GrainGrove.Business.pdb
+C:\Users\dunca\source\respository\GrainGrove_API\GrainGrove.Domain\obj\Debug\net6.0\GrainGrove.Domain.csproj.AssemblyReference.cache
+C:\Users\dunca\source\respository\GrainGrove_API\GrainGrove.Domain\obj\Debug\net6.0\GrainGrove.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dunca\source\respository\GrainGrove_API\GrainGrove.Domain\obj\Debug\net6.0\GrainGrove.Domain.AssemblyInfoInputs.cache
+C:\Users\dunca\source\respository\GrainGrove_API\GrainGrove.Domain\obj\Debug\net6.0\GrainGrove.Domain.AssemblyInfo.cs
+C:\Users\dunca\source\respository\GrainGrove_API\GrainGrove.Domain\obj\Debug\net6.0\GrainGrove.Domain.csproj.CoreCompileInputs.cache
+C:\Users\dunca\source\respository\GrainGrove_API\GrainGrove.Domain\obj\Debug\net6.0\GrainGrove.Domain.csproj.CopyComplete
+C:\Users\dunca\source\respository\GrainGrove_API\GrainGrove.Domain\obj\Debug\net6.0\GrainGrove.Domain.dll
+C:\Users\dunca\source\respository\GrainGrove_API\GrainGrove.Domain\obj\Debug\net6.0\refint\GrainGrove.Domain.dll
+C:\Users\dunca\source\respository\GrainGrove_API\GrainGrove.Domain\obj\Debug\net6.0\GrainGrove.Domain.pdb
+C:\Users\dunca\source\respository\GrainGrove_API\GrainGrove.Domain\obj\Debug\net6.0\ref\GrainGrove.Domain.dll

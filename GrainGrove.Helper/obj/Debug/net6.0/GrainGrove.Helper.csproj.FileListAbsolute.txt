@@ -1,0 +1,12 @@
+C:\Users\dunca\source\respository\GrainGrove_API\GrainGrove.Helper\bin\Debug\net6.0\GrainGrove.Helper.deps.json
+C:\Users\dunca\source\respository\GrainGrove_API\GrainGrove.Helper\bin\Debug\net6.0\GrainGrove.Helper.dll
+C:\Users\dunca\source\respository\GrainGrove_API\GrainGrove.Helper\bin\Debug\net6.0\GrainGrove.Helper.pdb
+C:\Users\dunca\source\respository\GrainGrove_API\GrainGrove.Helper\obj\Debug\net6.0\GrainGrove.Helper.csproj.AssemblyReference.cache
+C:\Users\dunca\source\respository\GrainGrove_API\GrainGrove.Helper\obj\Debug\net6.0\GrainGrove.Helper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dunca\source\respository\GrainGrove_API\GrainGrove.Helper\obj\Debug\net6.0\GrainGrove.Helper.AssemblyInfoInputs.cache
+C:\Users\dunca\source\respository\GrainGrove_API\GrainGrove.Helper\obj\Debug\net6.0\GrainGrove.Helper.AssemblyInfo.cs
+C:\Users\dunca\source\respository\GrainGrove_API\GrainGrove.Helper\obj\Debug\net6.0\GrainGrove.Helper.csproj.CoreCompileInputs.cache
+C:\Users\dunca\source\respository\GrainGrove_API\GrainGrove.Helper\obj\Debug\net6.0\GrainGrove.Helper.dll
+C:\Users\dunca\source\respository\GrainGrove_API\GrainGrove.Helper\obj\Debug\net6.0\refint\GrainGrove.Helper.dll
+C:\Users\dunca\source\respository\GrainGrove_API\GrainGrove.Helper\obj\Debug\net6.0\GrainGrove.Helper.pdb
+C:\Users\dunca\source\respository\GrainGrove_API\GrainGrove.Helper\obj\Debug\net6.0\ref\GrainGrove.Helper.dll

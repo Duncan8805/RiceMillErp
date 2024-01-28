@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "I5z5N6M1fliWb5N661+1LT22aOH0uIZPMb1lrK1xif2Ib1du6AYxfsP5aUOl1fZouKf9N42bVI/HqM9BPePrUQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\dunca\\source\\respository\\GrainGrove_API\\GrainGrove.Domain\\GrainGrove.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dunca\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
+    "C:\\Users\\dunca\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\dunca\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
