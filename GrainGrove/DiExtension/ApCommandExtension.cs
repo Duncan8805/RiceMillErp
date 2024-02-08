@@ -15,6 +15,8 @@ public static class ApCommandExtension
 
         service.AddScoped<IRequestHandler<GetCustInfoRequest, GetCustInfoResponse>, GetCustInfoCommandHandler>();
 
+        service.AddScoped<IRequestHandler<GetProductInfoRequest, GetProductInfoResponse>, GetProductInfoCommandHandler>();
+
         //service.AddScoped<IRequestHandler<GetReportContentRequest, GetReportContentResponse>, GetReportContentCommandHandler>();
 
         return service;
