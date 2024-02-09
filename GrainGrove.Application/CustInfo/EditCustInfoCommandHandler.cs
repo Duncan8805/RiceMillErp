@@ -48,32 +48,29 @@ public class EditCustInfoCommandHandler : IRequestHandler<EditCustInfoRequest, E
                 };
                 return response;
             }
-            else
+
+            string guid = DateTime.Now.ToString("yyyyMMddHHmmss");
+            CustInfoPo EditCusInfo = new()
             {
-                string guid = DateTime.Now.ToString("yyyyMMddHHmmss");
-                CustInfoPo EditCusInfo = new()
-                {
-                    CustNo = request.CustNo,
-                    CustName = request.CustName,
-                    CustId = request.CustId,
-                    CustPhone = Convert.ToInt32(request.CustPhone),
-                    CustAddr = request.CustAddr,
-                    Editer = "Admin",
-                    EditDate = DateTime.Now
-                };
+                CustNo = request.CustNo,
+                CustName = request.CustName,
+                CustId = request.CustId,
+                CustPhone = Convert.ToInt32(request.CustPhone),
+                CustAddr = request.CustAddr,
+                Editer = "Admin",
+                EditDate = DateTime.Now
+            };
 
-                _context.Update(EditCusInfo);
-                await _context.SaveChangesAsync();
+            _context.Update(EditCusInfo);
+            await _context.SaveChangesAsync();
 
-                response = new()
-                {
-                    Code = "200",
-                    Data = null,
-                    Msg = "Success"
-                };
-            }
+            response = new()
+            {
+                Code = "200",
+                Data = null,
+                Msg = "Success"
+            };
 
-            
         }
         catch (Exception ex)
         {

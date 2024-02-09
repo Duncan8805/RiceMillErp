@@ -48,39 +48,37 @@ public class EditProductInfoCommandHandler : IRequestHandler<EditProductInfoRequ
                 };
                 return response;
             }
-            else
+
+            string guid = DateTime.Now.ToString("yyyyMMddHHmmss");
+            ProductInfoPo EditProductInfo = new()
             {
-                string guid = DateTime.Now.ToString("yyyyMMddHHmmss");
-                ProductInfoPo EditProductInfo = new()
-                {
-                    CustId = request.CustId,
-                    DriverOrLicensePlateNo = request.DriverOrLicensePlateNo,
-                    ProductGuid = Convert.ToInt32(guid),
-                    ProductName = request.ProductName,
-                    ProductStatus = request.ProductStatus,
-                    TotalPrice = (long?)(request.TotalWeight * request.UnitPrice),
-                    UnitPrice = request.UnitPrice,
-                    TotalWeight = request.TotalWeight,
-                    EmptyWeight = request.EmptyWeight,
-                    ActualWeight = request.TotalWeight - request.EmptyWeight,
-                    IsPublicGrain = request.IsPublicGrain,
-                    ConvertToTKG = ConvertToTKG(request.TotalWeight),
-                    Editer = "Admin",
-                    EditDate = DateTime.Now
-                };
+                CustId = request.CustId,
+                DriverOrLicensePlateNo = request.DriverOrLicensePlateNo,
+                ProductGuid = Convert.ToInt32(guid),
+                ProductName = request.ProductName,
+                ProductStatus = request.ProductStatus,
+                TotalPrice = (long?)(request.TotalWeight * request.UnitPrice),
+                UnitPrice = request.UnitPrice,
+                TotalWeight = request.TotalWeight,
+                EmptyWeight = request.EmptyWeight,
+                ActualWeight = request.TotalWeight - request.EmptyWeight,
+                IsPublicGrain = request.IsPublicGrain,
+                ConvertToTKG = ConvertToTKG(request.TotalWeight),
+                Editer = "Admin",
+                EditDate = DateTime.Now
+            };
 
-                _context.Update(EditProductInfo);
-                await _context.SaveChangesAsync();
+            _context.Update(EditProductInfo);
+            await _context.SaveChangesAsync();
 
-                response = new()
-                {
-                    Code = "200",
-                    Data = null,
-                    Msg = "Success"
-                };
-            }
+            response = new()
+            {
+                Code = "200",
+                Data = null,
+                Msg = "Success"
+            };
 
-            
+
         }
         catch (Exception ex)
         {
